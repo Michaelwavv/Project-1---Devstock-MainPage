@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+.main {
+background-color: #222426;
+width: 100%;
+font-family: 'Lexend Deca';
+}
+
+.navMenu {
+display: flex;
+margin: auto;
+max-width: 1920px; 
+}
+
+.hamburgerMenuMain, #hamburgerMenuID {
+display:none;
+}
+
+.navMenu a {
+font-weight: 200;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+color: #FFFFFF;
+margin-right: 25px;
+margin-top: 3vh;
+margin-bottom: 8vh;
+}
+
+.devstockLogo {
+height: 40px;
+margin-top: 2vh;
+margin-right: 50px;
+margin-left: 3vw;
+}
+
+.mainAll {
+display: flex;
+justify-content: center;
+margin: auto;
+max-width: 1920px;
+}
+
+.mainRight {
+display: flex;
+flex-wrap: wrap;
+width: 40%;
+}
+
+.mainRight img {
+width: 50%;
+}
+
+.mainLeft {
+width: 60%;
+margin-left: 3vw;
+}
+
+.mainLeft h1 {
+font-weight: 900;
+font-size: 64px;
+line-height: 76px;
+letter-spacing: -2px;
+color: #FFFFFF;
+}
+
+.mainLeft h3 {
+font-weight: 200;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.5px;
+width: 618px;
+color: #FFFFFF; 
+}
+
+button.signUp, button.foryou {
+justify-content: center;
+align-items: center;
+padding: 24px 40px;
+margin-right: 20px;
+background-color: #FFFFFF;
+font-family: 'Lexend Deca';
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.5px;
+color: #222426;
+margin-bottom: 3vh;
+border: solid 5px white;
+}
+
+button.foryou {
+background-color: #222426;
+color:#FFFFFF;
+border: solid 5px white;
+}
+
+img.blackrectangle {
+display: none;
+}
+
+.redBanner {
+background-color: #F64746;
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+.redBannerAll {
+display: flex;
+width: 100%;
+max-width: 1920px;
+align-items:flex-end;
+padding: 25px;
+box-sizing: border-box;
+font-family: 'Lexend Deca';
+}
+
+.redBanner h1 {
+font-weight: 900;
+font-size: 106px;
+line-height: 110px;
+letter-spacing: -2.5px;
+color: #222426;
+margin-bottom: 0;
+margin-top: 88px;
+padding-left: 3vw;
+}
+
+.redBanner h2 {
+font-weight: 900;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -0.5px;
+color: #222426;
+text-decoration:underline;
+padding-bottom: 5%;
+padding-left: 8%;
+}
+
+.redBanner h3 {
+font-weight: 300;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.5px;
+color: #222426;
+margin-left: 3vw;
+margin-bottom: 112px;
+}
+
+.redArrow {
+width: 20%;
+}
+
+.redRightText, .redLeftText {
+width: 40%;
+}
+
+.redBanner img {
+width: 100%;
+padding-bottom: 25px;
+}
+
+.redBanner div {
+max-width: 1920px;
+height: 100%;
+}
+
+#mobileRedH1, .mobileRedH2  {
+display: none
+}
+
+.form1 {
+background-color: white;
+display: flex;
+width: 100%;
+max-width: 1920px;
+font-family: 'Lexend Deca';
+margin:auto;
+}
+
+.form-left {
+width:50%;
+padding: 3vw;
+margin-top: 100px;
+margin-left: 30px;
+}
+
+.form-left h1 {
+font-weight: 900;
+font-size: 56px;
+line-height: 68px;
+letter-spacing: -2px;
+color: #222426;
+box-sizing: border-box;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+.form-left h4 {
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.5px;
+color: #222426;
+margin-top: 24px;
+}
+
+.form-left .secondFont {
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 68px;
+letter-spacing: -2px;
+}
+
+.form-right  {
+margin-top: 88px;
+margin-bottom: 80px;
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+padding: 50px;
+}
+
+.name, .surname, .skillLevel, .phoneNumber {
+width:50%;
+}
+
+
+.email, .level {
+width:100%;
+}
+
+.name input, .surname input, .phoneNumber input, .skillLevel select  {
+ width: 90%;
+ box-sizing: border-box;
+ align-content: space-between;
+}
+
+
+
+.email input, .level select {
+box-sizing: border-box;
+width: 95%;
+}
+
+.form-right input {
+border: solid black 3px;
+margin: 10px 0;
+padding: 14px;
+font-family: 'Lexend Deca';
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.5px;
+color: #AEAFB3;
+}
+
+select {
+border: solid black 3px;
+cursor: pointer;
+margin: 10px 0;
+padding: 14px;
+font-family: 'Lexend Deca';
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.5px;
+-webkit-appearance: none;
+border-radius: 0px;
+color:#AEAFB3;
+background: url("downarrowmenu.png") 96%;
+background-repeat: no-repeat;  
+}
+
+.form-right label {
+font-weight: 900;
+font-size: 16px;
+line-height: 20px;
+}
+
+#mandatory {
+color: #F64746;
+}
+
+.sumbitForm {
+width: 95%;
+}
+
+.sumbitForm input {
+width: 100%;
+margin-top: 40px;
+background: #222426;
+padding-top: 24px;
+padding-bottom: 24px;
+outline: none;
+border:none;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.5px;
+color: white;
+
+}
+
+.faq {
+background-color: #222426;
+display: flex;
+flex-wrap: wrap;
+max-width: 1920px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 88px;
+padding-left: 54px;
+box-sizing: border-box;
+padding-top: 50px;
+font-family: 'Lexend Deca';
+}
+
+.faq h1 {
+font-weight: 900;
+font-size: 56px;
+line-height: 68px;
+letter-spacing: -2px;
+width: 100%;
+margin: 0;
+color:#FFFFFF;
+
+}
+
+.faqwrapper {
+background-color: #222426;
+width:100%;
+}
+
+.faqleft {
+width: 50%;
+padding-right: 50px;
+box-sizing: border-box;
+  
+}
+
+.faqright {
+width: 50%;
+padding-left: 50px;
+padding-right: 50px;
+box-sizing: border-box;
+}
+
+.faqright ul {
+width: 100%;
+}
+
+.faqwrapper li {
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 8px;
+margin-top: 24px;
+color: #FFFFFF;
+}
+
+.faqwrapper h2 {
+font-weight: 900;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -0.5px;
+color: #FFFFFF;
+}
+
+.faqwrapper ul {
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.5px;
+color: #FFFFFF;
+}
+
+.LearnMore {
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.5px;
+color: #FFFFFF;
+}
+
+.LearnMore u {
+  border-top: 10px;
+  text-underline-position: under;
+}
+
+@media only screen and (max-width: 768px) {
+  
+
+.navMenu a {
+display:none;
+}
+
+.navMenu img {
+margin-top: 38px;
+margin-right: 16x;
+}
+
+#hamburgerMenuID{
+width: 35%;
+box-sizing: border-box;
+padding-right: 15px;
+display: flex;
+justify-content: flex-end;
+}
+
+.mainLeft h1 {
+font-size: 50px;
+line-height: 70px;
+}
+
+#devstocklogoID {
+width: 70%;
+box-sizing: border-box;
+}
+        
+.devstockLogo {
+padding-left: 5%;
+}
+
+.mainAll {
+flex-wrap: wrap;
+}
+      
+.mainLeft {
+width: 100%;
+box-sizing: border-box;
+padding: 15px;
+}
+      
+.mainRight {
+width: 100%;
+}
+
+#academyLogo {
+display: none;
+}
+
+.mainAll h1 {
+line-height: 70px;
+}
+
+.mainAll h3 {
+width: 100%;
+}
+
+.buttonWrapper {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+}
+
+.mainLeft button {
+width: 100%;
+}
+
+img.blackrectangle {
+display: block;
+margin-left: 50%;
+}
+      
+      
+.hamburgerMenuMain.active {
+display: flex;
+flex-direction: column;
+background-color: #222426;
+color:#FFFFFF;
+width: 100%;
+height: 100%;
+position: fixed;
+}
+      
+.hamburgerMenuMain.active a  {  
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 24px;
+text-align: right;
+text-decoration: none;
+color: #FFFFFF;
+padding-right: 16px;
+margin-bottom: 25px;
+}
+
+.hamburgerMenuMain.active h2 {
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+text-align: right;
+margin-bottom: 0px;
+padding-right: 16px;
+}
+      
+.iconwrapper {
+display: flex;
+width: 100%;
+height: 20%;
+justify-content: flex-end;
+}
+
+.menuWrapper {
+display: flex;
+flex-direction: column;
+height: 60%;
+margin-top: 35px;
+}
+      
+.hamburgerMenuMain.active img {
+width: 27px;
+height: 27px;
+margin-right: 20px;
+margin-left: 25px;
+align-self:flex-end;
+}
+      
+.redBannerAll {
+flex-wrap: wrap;
+}
+ 
+.redArrow img {
+display: block;
+width: 251px;
+height: 54px;
+}
+
+.redRightText{
+display: flex;
+width: 100%;
+flex-wrap: wrap; 
+}
+
+.redLeftText {
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+box-sizing: border-box;
+}
+
+.redBanner h3 {
+margin-bottom: 15px;
+}
+              
+.redBanner br {
+display: none;
+}
+
+#mobileRedH1  {
+display: inline;
+font-weight: 900;
+font-size: 4.5rem;
+line-height: 76px;
+}    
+
+
+#mobileRedH2ID { 
+display: inline;
+font-weight: 900;
+font-size: 24px;
+line-height: 24px;
+padding-left: 15px;
+}
+
+.redH1,.redH2 {
+display: none;
+}
+
+.form-left {
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 0px;
+margin-top: 45px;
+}
+
+.form-right {
+display: flex;
+width: 100%;
+justify-content: center;
+padding: 0;
+margin: 0px;
+}
+  
+.form-left br{
+display:none;
+}
+
+.form1 {
+display: flex;
+flex-wrap: wrap;
+}
+  
+  #form2 {
+width:90%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+  
+#emailID {
+width: 85%;
+}
+
+#mandatory {
+width: 3%;
+justify-content: flex-end;
+}
+
+.form-right label, .email input, .level select  {
+width: 90%;
+}
+
+.sumbitForm {
+width: 80%;
+display: flex;
+justify-content: center;
+}
+
+.sumbitForm input {
+margin-top: 25px;
+font-size: 20px;
+padding: 25px 25px 25px 25px;
+}
+
+.faqleft {
+width: 100%;
+}
+
+.faq h1 {
+font-weight: 800;
+font-size: 50px;
+}
+
+.faqright {
+width: 100%;
+padding: 0;
+padding-right: 50px;
+}  
+
+.faqright ul {
+padding-left: 40px;
+padding-right: 0;
+}
+
+.learnMore {
+width:100%;
+display: flex;
+justify-content: center;
+padding-right: 50px;}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+.mainRight {
+display: flex;
+width:50%;
+box-sizing: border-box;
+align-self:flex-end;
+}
+
+.mainRight img {
+height: 250px;
+}
+
+#academyLogo {
+display: none;
+}
+
+.mainLeft {
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+align-self: flex-end;
+}
+
+.mainLeft h1 {
+font-size: 40px;
+margin-bottom: 0;  
+}
+
+.mainLeft h3 {
+font-size: 15px;
+margin-bottom: 0;
+padding-right: 30px;
+height: 35%;
+}
+
+.buttonWrapper {
+display: flex;
+flex-wrap: wrap;
+}
+
+.redLeftText h1 {
+font-size: 80px;    
+}
+
+.redLeftText br {
+display: none;
+}
+.phoneNumber {
+    align-self: flex-end;
+}
+}
+
+
